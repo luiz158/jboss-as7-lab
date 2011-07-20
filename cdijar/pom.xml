@@ -7,6 +7,15 @@
 	<artifactId>jboss-cdijar</artifactId>
 	<version>7.0.0.Final</version>
 	<packaging>jar</packaging>
+	
+	<dependencies>
+		<dependency>
+            <groupId>org.jboss.spec.javax.interceptor</groupId>
+            <artifactId>jboss-interceptors-api_1.1_spec</artifactId>
+            <version>1.0.0.Beta1</version>
+            <scope>provided</scope>
+         </dependency>
+	</dependencies>
 
 	<build>
 		<plugins>
