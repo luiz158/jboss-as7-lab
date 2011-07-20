@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>jboss.lab</groupId>
-	<artifactId>jboss-cdijar</artifactId>
+	<artifactId>jboss-extensions-scenario1-cdijar</artifactId>
 	<version>7.0.0.Final</version>
 	<packaging>jar</packaging>
 
