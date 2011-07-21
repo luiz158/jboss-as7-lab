@@ -2,12 +2,12 @@ package examples;
 
 import javax.inject.Inject;
 
-public class MyAnotherBean {
+public class MyBean {
 
 	@Inject
 	private MyAlternativeInterface alternative;
 
-	public void doSomething() {
-		System.out.println(alternative.getString());
+	public void printMessageOnConsole() {
+		System.out.println(alternative.getMessage());
 	}
 }
